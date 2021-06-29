@@ -1,0 +1,47 @@
+#N canvas -8 -8 1366 725 12;
+#X obj 16 36 loadbang;
+#X msg 16 66 new BarTeste 1 BAR;
+#X text 157 66 Iniciar Sensor Trill Bar com o ID "BarTeste";
+#X obj 16 242 s bela_setTrill;
+#X text 16 262 Objeto responsável pela inicialização;
+#X obj 561 35 r bela_trillCreated;
+#X text 707 36 Recebe mensagem por cada sensor Iniciado;
+#X obj 595 60 print bela_trillCreated;
+#X obj 561 87 route BarTeste;
+#X msg 631 168 mode BarTeste AUTO;
+#X text 630 191 O mode pode ser AUTO \, CENTROID \, RAW \, BASELINE
+\, DIFF;
+#X text 16 8 Ver mais em Examples>Trill>general_pd;
+#X msg 631 223 prescaler BarTeste 1;
+#X text 791 223 Valor pode ser entre 1 e 8;
+#X text 805 254 Valor entre 0 e 0.1;
+#X msg 631 254 threshold BarTeste 0.1;
+#X msg 632 285 updateBaseline BarTeste;
+#X text 810 284 Faz um reset à Baseline;
+#X text 634 311 E podemos fazer tudo numa única mensagem;
+#X msg 632 337 mode BarTeste AUTO \, prescaler BarTeste 1 \, threshold
+BarTeste 0.1 \, updateBaseline BarTeste, f 91;
+#X msg 446 116 mode BarTeste AUTO \, prescaler BarTeste 1 \, threshold
+BarTeste 0.1 \, updateBaseline BarTeste, f 91;
+#X obj 288 365 r bela_trill;
+#X text 381 365 Recebe as leituras de todos os Sensores Trill iniciados
+;
+#X obj 263 491 list;
+#X obj 145 424 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 145 444 metro 200;
+#X obj 145 470 delay 30;
+#X obj 263 517 print bar;
+#X obj 288 395 route BarTeste;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 5 0 7 0;
+#X connect 5 0 8 0;
+#X connect 8 0 20 0;
+#X connect 8 0 24 0;
+#X connect 21 0 28 0;
+#X connect 23 0 27 0;
+#X connect 24 0 25 0;
+#X connect 25 0 26 0;
+#X connect 26 0 23 0;
+#X connect 28 0 23 1;
