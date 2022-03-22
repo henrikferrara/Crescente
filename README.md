@@ -34,6 +34,7 @@ mostly done considering the my desires, expectations and aims as a musician.
 
 * On the folder **Crescente Circuit Designs** you'll find the schematics (PNG image + fzz. file) for Crescente (currently version is v3), which were designed using Fritzing;
 * On the folder **Crescente Imagens** you'll find high quality pictures of Crescente's second (and current) iteration;
+* On the folder **Crescente Updated Patch** you'll find the latest updated version of the Pd patch I'm using on Crescente;
 * On the folder **Crescente Gestos** you'll find high quality pictures portraying some of the gesture vocabulary that can be utilized when playing Crescente;
 * On the folder **Crescente_v1.0alpha** you'll find the first stable version of Crescente's Pd patch. This version was utilized for the first recordings of the prototype. (Note: Some parts of the code used were originally built by [Johan Eriksson][AUTO] and others by [Bela's team][BELARESOURCE]);
 * On the folder **prototyping testing patches** you'll find a series of Pure Data patches that were utilized on several testing tasks during Crescente's development. These are here merely for Archival purposes;
