@@ -3,6 +3,8 @@
 Welcome to the repository of Crescente, a new DMI (Digital Music Instrument) with some qualities imported from the electroacoustic universe.
 Crescente is still a prototype and right now it is on its second iteration stage (regarding body construction, design and sensors placement).
 
+[![Crescente1](/Crescente_Imagens/crescente1.jpg){:width="50%"}](/Crescente_Imagens/crescente1.jpg)
+
 ## Table of contents
   * [About](#about)
   * [Folders and Files](#folders-and-files)
