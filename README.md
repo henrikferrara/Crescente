@@ -3,6 +3,8 @@
 Welcome to the repository of Crescente, a new DMI (Digital Music Instrument) with some qualities imported from the electroacoustic universe.
 Crescente is still a prototype and right now it is on its second iteration stage (regarding body construction, design and sensors placement).
 
+Disclaimer: As this entire project started in the context of my master's dissertation, which I undertook at Universidade do Porto, in Portugal, some of the files contained on this repository are titled and/or written in portuguese. This is due to this repository being part of my dissertation's Annexes section, which must stay publicly available. Anyhow, I'll be continuing to update this project using english only and all the essential information will be readily available here.
+
 ![Crescente1](/Crescente_Imagens/crescente1.jpg)
 
 ## Table of contents
@@ -13,6 +15,10 @@ Crescente is still a prototype and right now it is on its second iteration stage
   * [Future Work](#future-work)
  
 ## About
+
+The development of Crescente was heavily inspired by a list of things. Among those, there was a deep need to dive into the DIY world of new instruments, alongside an urge to find ways of making an electronic instrument enable expressivity, through gesture and physicality. Some existing NIMEs also inspired how this prototype came to be, such as ["De Shroom"][DESHROOM] by Fedde Ten Berge, ["Halldorophone"][HALLDOR] by Halldór Úlfarsson, ["The Daïs"][DAIS] by Pelle Christensen and ["Knurl"][KNURL] by Rafaele Andrade.
+
+Crescente is a portable standalone instrument, as the entire sound production chain happens within Crescente (it does also have an output for simultaneous external amplification and/or processing, when needed). It is shaped in a moon like body, which is embraced by the musician and exposes its most visually striking sensors facing front
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed molestie dui. Curabitur cursus leo lectus, non consequat nunc pretium sit amet. Fusce finibus lacus a tortor rutrum, in semper mi maximus. Integer molestie magna finibus quam aliquet lobortis. In luctus nisl massa, sit amet pellentesque enim suscipit eu. Aenean ac felis non enim pulvinar rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent quis justo pellentesque, posuere arcu quis, blandit magna. Ut bibendum finibus diam, id accumsan sem sollicitudin quis. Nam semper sapien eget metus fringilla, a feugiat dui posuere. Ut eu lectus non massa ultrices tincidunt. Proin ut ligula id ligula sagittis tristique. Maecenas sagittis, tellus sit amet commodo dictum, nisl massa pharetra magna, sed semper justo tellus sed massa. Nam sit amet erat vitae ligula egestas rhoncus in eu turpis. Mauris gravida lacinia velit, id malesuada lacus interdum in.
 
@@ -71,3 +77,8 @@ Sed vel condimentum mi. Praesent ac urna id elit tempus sodales et ac magna. Eti
 Integer nec tempor arcu. Vestibulum justo enim, congue in iaculis in, dapibus et velit. Aliquam erat volutpat. Donec porta, erat et cursus pretium, turpis leo laoreet justo, non tempus ligula sem sit amet ipsum. In hac habitasse platea dictumst. Ut ultricies augue porta, sollicitudin neque in, dignissim magna. Nulla convallis lacinia congue. Suspendisse porta vitae tortor eu efficitur. Suspendisse sagittis nec neque in maximus.
 
 Sed sit amet mi ac augue iaculis blandit. Nulla imperdiet venenatis nisl sed rutrum. Vestibulum et enim ultricies, venenatis orci sed, sagittis nisl. Mauris semper ac arcu et pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vehicula quam cursus volutpat consequat. Sed pellentesque eu diam non suscipit. Nam nulla erat, convallis vestibulum congue ac, pulvinar et libero. Nullam scelerisque gravida mollis. Donec dolor orci, dignissim et hendrerit et, gravida quis orci. Aliquam convallis velit quis turpis lobortis feugiat. In hac habitasse platea dictumst. Aliquam tincidunt magna at semper ultrices.
+
+[DESHROOM]: https://www.feddetenberge.nl/de-shroom
+[HALLDOR]: http://www.halldorophone.info/about/
+[DAIS]: https://blog.bela.io/dais-haptic-feedback-instrument/
+[KNURL]: https://blog.bela.io/knurl-hybrid-cello/
